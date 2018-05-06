@@ -1,0 +1,55 @@
+.div_img{
+	width: 400px;
+	height: 600px;
+}
+.div_img img{
+	width: 100%;
+	height: 100%;
+}
+.content{
+	width: 400px;
+	height: 600px;
+	opacity: 0.5;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.item{
+	margin-top: 30px;
+	display: flex;
+}
+.div1{
+	height: 30px;
+	width: 50px;
+	color: #CC3333;
+}
+.div2{
+	height: 30px;
+	width: 210px;
+}
+.Bregister{
+	width: 260px;
+}
+.error{
+	position: absolute;
+	top: 5px;
+	left: 50px;
+	font-size: 10px;
+	color: #FF6666;
+}
+input{
+	width: 100%;
+}
+span a{
+	text-decoration: none;
+	color: #000000;
+}
+span a:hover{
+	text-decoration: none;
+	color: #C11212;
+}
+li{
+	list-style: none;
+}

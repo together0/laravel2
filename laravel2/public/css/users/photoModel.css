@@ -1,0 +1,118 @@
+.BODY{
+
+}
+.body{
+	width: 1300px;
+	height: 646px;
+	margin: 0 auto;
+	border: 2px solid cyan;
+}
+.header{
+	height: 50px;
+	width: 98%;
+	padding: 0 1%;
+	margin: 0 auto;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.header>div{
+	font-size: 20px;
+}
+.per_blog{
+	position: absolute;
+	line-height: 50px;
+	top: 0;
+	right: 600px;
+}
+.per_blog a{
+	font-size: 20px;
+	color: #999999;
+	text-decoration: none;
+	line-height: 50px;
+}
+.per_blog a:hover{
+	color: #C11212;
+}
+.nickName{
+	line-height: 50px;
+	position: absolute;
+	top: 0;
+	right: 20px;
+}
+.main{
+	height: 594px;
+	width: 100%;
+	background-color: #E9E9E9;
+	border-top: 2px solid cyan;
+}
+.main_body{
+	height: 574px;
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 10px;
+	border: 1px solid yellow;
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+}
+.header_item:nth-child(1){
+	height: 50px;
+	width: 150px;
+}
+.header_item:nth-child(1) img{
+	width: 100%;
+	height: 100%;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 30px;
+	width:1000px;
+	height: 480px;
+}
+form>div{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 70px;
+}
+.title{
+	height: 35px;
+	background-color: #EFEFEF;
+	margin-bottom: 30px;
+	padding-left: 16px;
+	font-size: 16px;
+}
+.divFile{
+	height: 200px;
+	width: 200px;
+	border: 1px solid #000000;	
+	position: relative;
+}
+.file{
+	height: 100%;
+	width: 100%;
+}
+.fileIcon{
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.submit{
+	background-color: #FFFFFF;
+	color: #C92027;
+	border: 1px solid #C92027;
+	border-radius: 5px;
+	margin-top: 30px;
+	height: 30px;
+}
+.submit:hover{
+	background-color: #C92027;
+	color: 	#FFFFFF;
+}
+
